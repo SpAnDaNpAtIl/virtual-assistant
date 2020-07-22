@@ -1,0 +1,11 @@
+Dor
+def initial_greet():
+    hour = datetime.datetime.now().hour
+    if hour>=6 and hour<10:
+        speak("Good Morning!")
+    elif hour>=12 and hour<2 :
+        speak("Good Afternoon!")
+    elif hour>=4 and hour<7:
+        speak("Good Evening!")
+    else:
+        None
