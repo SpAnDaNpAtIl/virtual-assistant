@@ -40,12 +40,12 @@ def send_email(subject, to, message_content):
         msg = EmailMessage()
         msg.set_content(message_content)
         msg['Subject'] =subject
-        msg['From'] = 'spandyinstiapp@gmail.com'
+        msg['From'] = 'random@xyz.com'  #Enter your email ID from which you want to send emails
         msg['To'] = to
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()
         server.starttls()
-        server.login('spandyinstiapp@gmail.com', 'InstiApp')
+        server.login('random@xyz.com', 'password123') #Your email ID and password from which you want to send emails
         server.send_message(msg)
         server.close()
 
