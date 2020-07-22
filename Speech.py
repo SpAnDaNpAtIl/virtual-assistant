@@ -33,7 +33,7 @@ def initial_greet():
 
 def query_solved_finally():
     speak("Hope that I was able to help you with this!")
-    speak("How can I help you Spandan?")
+    speak("How can I help you John Smith?") #enter your name instead of john smith
 
 
 def send_email(subject, to, message_content):
