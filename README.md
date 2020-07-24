@@ -6,6 +6,7 @@ Tony's simple tasks include telling you current date and time, adding reminders 
 
 
 ### Requirements:
+Will be posting soon complete Readme and updated python library requirements for quick installation.
 
 
 
