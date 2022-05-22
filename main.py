@@ -46,7 +46,7 @@ if __name__ == "__main__":
             elif 'weather' in str(query):
                 if 'complete' in str(query):
                     speak('Temperature in your region is '+str(current_temp()) + 'degree celsius. The current status of weather conditions is:' +status_of_weather())
-                    speak('Wind speed is ' + str(wind_speed())+'kilometers per hour. Humidity is ' + str(humidity())
+                    speak('Wind speed is ' + str(wind_speed())+'kilometers per hour. Humidity is ' + str(humidity()))
                 else:
                     speak('Temperature in your region is '+str(current_temp()) + 'degree celsius. The current status of weather conditions is:' +status_of_weather())
                 
